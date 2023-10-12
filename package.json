@@ -265,7 +265,6 @@
     "fs-extra": "^10.1.0",
     "fs-monkey": "^1.0.5",
     "fs.realpath": "^1.0.0",
-    "fsevents": "^2.3.3",
     "function-bind": "^1.1.1",
     "function.prototype.name": "^1.1.6",
     "functions-have-names": "^1.2.3",
@@ -859,6 +858,9 @@
     "yocto-queue": "^0.1.0",
     "zod": "^3.22.4"
   },
+  "optionalDependencies": {
+    "fsevents": "^2.3.3"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "/test"
@@ -882,4 +884,5 @@
     "url": "https://github.com/Loftly/MOMO_dApp/issues"
   },
   "homepage": "https://github.com/Loftly/MOMO_dApp#readme"
+
 }
