@@ -23,7 +23,7 @@ function App() {
 
     useEffect(() => {
         if (web3) {
-            const contractInstance = new web3.eth.Contract(contractABI, 'YOUR_CONTRACT_ADDRESS');
+            const contractInstance = new web3.eth.Contract(contractABI, '0xE1Ef01C19751540778b73c122B4fc9a5EF543ECf');
             setContract(contractInstance);
             fetchUserData();
         }
